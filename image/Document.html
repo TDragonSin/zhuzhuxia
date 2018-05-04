@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://localhost:8080/cookie/cookie3.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	
+		function setCookie(cookieName,cookieValue,options){
+			
+			if(typeof cookieName != "string" || typeof cookieValue != "string"){
+				return 0;
+			}
+
+			var cookieString = (function(){
+				//处理字符串;
+				string = cookieName + "=" + cookieValue;
+				if(!(options instanceof Object)){
+					return string;
+				}
+				if(typeof options.expires == "number"){
+					var d = new Date();
+					d.setDate(d.getDate() + options.expires);
+					var expiresStr = ";expires="+d;
+					string += expiresStr;
+				}
+				if(typeof options.path == "string"){
+					var pathString = ";path="+options.path;
+					string += pathString;
+				}
+				return string;
+			})()
+
+			document.cookie = cookieString;
+		}
+
+		var options = {
+			expires:6
+		}
+		setCookie("pw","123456",options);
+
+
+	</script>
+
+</body></html>

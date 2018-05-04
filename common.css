@@ -1,0 +1,47 @@
+body{
+    margin:0px;
+    font:14px/1.5 "Î¢ÈíÑÅºÚ",Arial;
+    color: #282828;
+    width:100%;
+    min-width:1200px;
+    box-sizing: border-box;
+    position: relative;
+}
+ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,button{
+    margin:0px;
+    padding:0px;
+}
+ul,ol{
+    list-style: none;
+}
+input,button{
+    font-family:"Î¢ÈíÑÅºÚ";
+    border:none;
+}
+.lt{
+    float:left;
+}
+.rt{
+    float:right;
+}
+.clearfloat:after{
+    content:"";
+    display:table;
+    height:0;
+    clear:both;
+    visibility: hidden;
+}
+.clear:before{
+    content:"";
+    display:table;
+    clear:both;
+    height:0;
+    visibility: hidden;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+input,a{
+	outline: none;
+}

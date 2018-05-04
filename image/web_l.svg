@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1386" height="985"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-952.000000, -250.000000)">
+            <g id="Rectangle">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="1385" height="984"></rect>
+            </g>
+            <path d="M637,250 L1029,250 L1029,250 C1031.20914,250 1033,251.790861 1033,254 L1033,779 L1033,779 C1033,781.209139 1031.20914,783 1029,783 L637,783 L637,783 C634.790861,783 633,781.209139 633,779 L633,737.671875 L633,254 L633,254 C633,251.790861 634.790861,250 637,250 Z" id="Rectangle-2-Copy-6" fill="#FFFFFF"></path>
+            <g id="Page-1" transform="translate(978.000000, 264.000000)" fill="#FFD100">
+                <polygon id="Fill-1" points="32 8 8 8 8 20.3030515 12.6417084 25 32 25"></polygon>
+                <path d="M36.7787995,0 L4.22120047,0 C1.88987732,0 0,1.89328604 0,4.22944992 L0,11.7451469 L2.91677682,14.6607927 L2.91677682,3.00048063 L38.1463728,3.00048063 L38.1463728,29.3714843 L17.6331749,29.3714843 L29.2664687,41 L33.6729748,41 C34.4762111,41 35.1272201,40.3492435 35.1272201,39.5463186 C35.1272201,38.743661 34.4762111,38.0926373 33.6729748,38.0926373 L26.3710759,38.0926373 L26.3710759,32.2550665 L36.7790668,32.2550665 C39.1101227,32.2550665 41,30.3617137 41,28.025817 L41,4.22944992 C41,1.89355324 39.1101227,0 36.7787995,0" id="Fill-2"></path>
+            </g>
+            <g id="Group-2" transform="translate(952.000000, 250.000000)" fill="#FFFFFF">
+                <polygon id="Rectangle-11-Copy" points="0 0 71.2421875 71.2421875 0 71.2421875"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
